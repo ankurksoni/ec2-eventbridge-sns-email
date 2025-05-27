@@ -132,11 +132,11 @@ START RequestId: 1dfbc85a-5081-455e-aa00-51bcac366198 Version: $LATEST
     "id": "edc859d4-ec22-9c86-16ad-4162f4f47f77",
     "detail-type": "EC2 Instance State-change Notification",
     "source": "aws.ec2",
-    "account": "698926940450",
+    "account": "<YOUR_ACCOUNT_ID>",
     "time": "2025-05-27T06:59:00Z",
     "region": "us-east-1",
     "resources": [
-        "arn:aws:ec2:us-east-1:698926940450:instance/i-0403d6818c5016e11"
+        "arn:aws:ec2:us-east-1:<YOUR_ACCOUNT_ID>:instance/i-0403d6818c5016e11"
     ],
     "detail": {
         "instance-id": "i-0403d6818c5016e11",
@@ -146,10 +146,10 @@ START RequestId: 1dfbc85a-5081-455e-aa00-51bcac366198 Version: $LATEST
 2025-05-27T06:59:00.187Z	1dfbc85a-5081-455e-aa00-51bcac366198	INFO	Instance ID: i-0403d6818c5016e11
 2025-05-27T06:59:00.187Z	1dfbc85a-5081-455e-aa00-51bcac366198	INFO	State: running
 2025-05-27T06:59:00.187Z	1dfbc85a-5081-455e-aa00-51bcac366198	INFO	Region: us-east-1
-2025-05-27T06:59:00.187Z	1dfbc85a-5081-455e-aa00-51bcac366198	INFO	Account ID: 698926940450
+2025-05-27T06:59:00.187Z	1dfbc85a-5081-455e-aa00-51bcac366198	INFO	Account ID: <YOUR_ACCOUNT_ID>
 2025-05-27T06:59:00.187Z	1dfbc85a-5081-455e-aa00-51bcac366198	INFO	Time: 2025-05-27T06:59:00Z
-2025-05-27T06:59:00.188Z	1dfbc85a-5081-455e-aa00-51bcac366198	INFO	SNS_TOPIC_ARN: arn:aws:sns:us-east-1:698926940450:EC2StateChangeTopic
-2025-05-27T06:59:00.188Z	1dfbc85a-5081-455e-aa00-51bcac366198	INFO	Topic ARN: arn:aws:sns:us-east-1:698926940450:EC2StateChangeTopic
+2025-05-27T06:59:00.188Z	1dfbc85a-5081-455e-aa00-51bcac366198	INFO	SNS_TOPIC_ARN: arn:aws:sns:us-east-1:<YOUR_ACCOUNT_ID>:EC2StateChangeTopic
+2025-05-27T06:59:00.188Z	1dfbc85a-5081-455e-aa00-51bcac366198	INFO	Topic ARN: arn:aws:sns:us-east-1:<YOUR_ACCOUNT_ID>:EC2StateChangeTopic
 END RequestId: 1dfbc85a-5081-455e-aa00-51bcac366198
 ```
 
