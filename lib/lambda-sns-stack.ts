@@ -7,7 +7,7 @@ import * as iam from 'aws-cdk-lib/aws-iam';
 import * as sns from 'aws-cdk-lib/aws-sns';
 import * as subscriptions from 'aws-cdk-lib/aws-sns-subscriptions';
 
-const EMAIL_ID = 'ankursoni.leonardo@gmail.com';
+const EMAIL_ID = '<your-email-id>@gmail.com';
 
 export class LambdaSnsStack extends cdk.Stack {
   constructor(scope: Construct, id: string, props?: cdk.StackProps) {
